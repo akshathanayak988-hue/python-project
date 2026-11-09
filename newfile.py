@@ -1,1 +1,1 @@
-java_dd
+java_marks=input("enter your marks:")
