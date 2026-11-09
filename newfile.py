@@ -1,2 +1,2 @@
-java_marks=input("enter your marks:"
+java_marks=input("enter your marksrd:"
                  )
