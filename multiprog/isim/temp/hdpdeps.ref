@@ -1,0 +1,8 @@
+V3 7
+FL C:/Users/Student/4AL25CS006/multiprog/multiprog.v 2026/10/27.14:37:05 I.24
+MO isim_temp/multiprog  FL C:/Users/Student/4AL25CS006/multiprog/multiprog.v
+FL C:/Users/Student/4AL25CS006/multiprog/textfix.v 2026/10/27.14:57:16 I.24
+MO isim_temp/TEXT_v     FL C:/Users/Student/4AL25CS006/multiprog/textfix.v \
+      MI multiprog
+FL $XILINX/verilog/src/glbl.v 2005/11/16.16:04:44 I.24
+MO isim_temp/glbl       FL $XILINX/verilog/src/glbl.v

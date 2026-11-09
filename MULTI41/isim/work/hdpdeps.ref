@@ -1,0 +1,8 @@
+V3 7
+FL C:/Users/Student/4AL25CS006/MULTI41/TYDFSHUFG.v 2026/10/27.15:15:51 I.24
+MO work/FIX_v           FL C:/Users/Student/4AL25CS006/MULTI41/TYDFSHUFG.v \
+      MI VERILOG
+FL C:/Users/Student/4AL25CS006/MULTI41/VERILOG.v 2026/10/27.15:10:27 I.24
+MO work/VERILOG         FL C:/Users/Student/4AL25CS006/MULTI41/VERILOG.v
+FL $XILINX/verilog/src/glbl.v 2005/11/16.16:04:44 I.24
+MO work/glbl            FL $XILINX/verilog/src/glbl.v

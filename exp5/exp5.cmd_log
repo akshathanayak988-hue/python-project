@@ -1,0 +1,1 @@
+xst -ise "C:/Users/Student/4AL25CS006/exp5/exp5" -intstyle ise -ifn exp5.xst -ofn exp5.syr

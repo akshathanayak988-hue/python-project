@@ -1,0 +1,25 @@
+Release 8.1i - xst I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.06 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "exp7.v" in library work
+ERROR:HDLCompilers:27 - "exp7.v" line 23 Illegal redeclaration of 'Y'
+ERROR:HDLCompilers:120 - "exp7.v" line 24 Illegal redeclaration of input 'Y' as a reg
+ERROR:HDLCompilers:26 - "exp7.v" line 30 unexpected token: 'Y'
+ERROR:HDLCompilers:26 - "exp7.v" line 30 unexpected token: ';'
+Module <exp7> compiled
+ERROR:HDLCompilers:26 - "exp7.v" line 31 expecting 'endmodule', found 'else'
+Analysis of file <"exp7.prj"> failed.
+--> 
+
+Total memory usage is 153048 kilobytes
+
+Number of errors   :    5 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,15 @@
+xst -ise "C:/Users/Student/4AL25CS006/multiprog/multiprog" -intstyle ise -ifn multiprog.xst -ofn multiprog.syr
+ngdbuild -ise "C:/Users/Student/4AL25CS006/multiprog/multiprog" -intstyle ise -dd _ngo -i -p xa9500xl multiprog.ngc multiprog.ngd
+cpldfit -ise "C:/Users/Student/4AL25CS006/multiprog/multiprog" -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -power std -terminate keeper multiprog.ngd
+XSLTProcess -ise "C:/Users/Student/4AL25CS006/multiprog/multiprog" multiprog_build.xml
+tsim -ise "C:/Users/Student/4AL25CS006/multiprog/multiprog" -intstyle ise multiprog multiprog.nga
+taengine -ise "C:/Users/Student/4AL25CS006/multiprog/multiprog" -intstyle ise -f multiprog -w --format html1 -l C:/Users/Student/4AL25CS006/multiprog/multiprog_html/tim/timing_report.htm
+hprep6 -ise "C:/Users/Student/4AL25CS006/multiprog/multiprog" -s IEEE1149 -i multiprog
+xst -ise "C:/Users/Student/4AL25CS006/multiprog/multiprog" -intstyle ise -ifn multiprog.xst -ofn multiprog.syr
+ngdbuild -ise "C:/Users/Student/4AL25CS006/multiprog/multiprog" -intstyle ise -dd _ngo -i -p xa9500xl multiprog.ngc multiprog.ngd
+cpldfit -ise "C:/Users/Student/4AL25CS006/multiprog/multiprog" -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -power std -terminate keeper multiprog.ngd
+XSLTProcess -ise "C:/Users/Student/4AL25CS006/multiprog/multiprog" multiprog_build.xml
+tsim -ise "C:/Users/Student/4AL25CS006/multiprog/multiprog" -intstyle ise multiprog multiprog.nga
+taengine -ise "C:/Users/Student/4AL25CS006/multiprog/multiprog" -intstyle ise -f multiprog -w --format html1 -l C:/Users/Student/4AL25CS006/multiprog/multiprog_html/tim/timing_report.htm
+hprep6 -ise "C:/Users/Student/4AL25CS006/multiprog/multiprog" -s IEEE1149 -i multiprog
+xst -ise "C:/Users/Student/4AL25CS006/multiprog/multiprog" -intstyle ise -ifn multiprog.xst -ofn multiprog.syr

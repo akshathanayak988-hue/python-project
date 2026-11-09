@@ -1,0 +1,7 @@
+xst -ise "C:/Users/Student/4AL25CS006/MULTI41/MULTI41" -intstyle ise -ifn VERILOG.xst -ofn VERILOG.syr
+ngdbuild -ise "C:/Users/Student/4AL25CS006/MULTI41/MULTI41" -intstyle ise -dd _ngo -i -p xa9500xl VERILOG.ngc VERILOG.ngd
+cpldfit -ise "C:/Users/Student/4AL25CS006/MULTI41/MULTI41" -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -power std -terminate keeper VERILOG.ngd
+XSLTProcess -ise "C:/Users/Student/4AL25CS006/MULTI41/MULTI41" VERILOG_build.xml
+tsim -ise "C:/Users/Student/4AL25CS006/MULTI41/MULTI41" -intstyle ise VERILOG VERILOG.nga
+taengine -ise "C:/Users/Student/4AL25CS006/MULTI41/MULTI41" -intstyle ise -f VERILOG -w --format html1 -l C:/Users/Student/4AL25CS006/MULTI41/VERILOG_html/tim/timing_report.htm
+hprep6 -ise "C:/Users/Student/4AL25CS006/MULTI41/MULTI41" -s IEEE1149 -i VERILOG

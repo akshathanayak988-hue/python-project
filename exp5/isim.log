@@ -1,0 +1,25 @@
+ command line:
+   ./exp5_t_v_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  65494
+
+Wed Oct 28 09:00:47 2026
+
+Total Line Count = 83
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 77.2014 Meg. 
+
+ Total signals 19
+ Total nets 15
+ Total signal drivers 10
+ Total blocks 3
+ Total primitive blocks 2
+ Total processes 13
+ntrace select -o on -m / -l this 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

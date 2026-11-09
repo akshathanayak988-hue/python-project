@@ -1,0 +1,20 @@
+Release 8.1i ngdbuild I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl multiprog.ngc
+multiprog.ngd 
+
+Reading NGO file 'C:/Users/Student/4AL25CS006/multiprog/multiprog.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 113448 kilobytes
+
+Writing NGD file "multiprog.ngd" ...
+
+Writing NGDBUILD log file "multiprog.bld"...

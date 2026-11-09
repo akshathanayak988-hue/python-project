@@ -1,0 +1,7 @@
+V3 7
+FL C:/Users/Student/4AL25CS006/exp6/exp6_t.v 2026/10/28.09:17:28 I.24
+MO work/exp6_t_v        FL C:/Users/Student/4AL25CS006/exp6/exp6_t.v MI exp6
+FL $XILINX/verilog/src/glbl.v 2005/11/16.16:04:44 I.24
+MO work/glbl            FL $XILINX/verilog/src/glbl.v
+FL C:/Users/Student/4AL25CS006/exp6/exp6.v 2026/10/28.09:06:21 I.24
+MO work/exp6            FL C:/Users/Student/4AL25CS006/exp6/exp6.v

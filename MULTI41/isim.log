@@ -1,0 +1,31 @@
+ command line:
+   ./FIX_v_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  60569
+
+Tue Oct 27 15:16:03 2026
+
+Total Line Count = 62
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 76.0709 Meg. 
+
+ Total signals 16
+ Total nets 15
+ Total signal drivers 10
+ Total blocks 3
+ Total primitive blocks 2
+ Total processes 13
+ntrace select -o on -n /FIX_v/Y 
+ntrace select -o on -n /FIX_v/I0 
+ntrace select -o on -n /FIX_v/I1 
+ntrace select -o on -n /FIX_v/I2 
+ntrace select -o on -n /FIX_v/I3 
+ntrace select -o on -n /FIX_v/S0 
+ntrace select -o on -n /FIX_v/S1 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

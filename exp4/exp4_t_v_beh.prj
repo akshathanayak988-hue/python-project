@@ -1,0 +1,3 @@
+verilog work "exp4.v"
+verilog work "exp4_t.v"
+verilog work "C:/Xilinx/verilog/src/glbl.v"
